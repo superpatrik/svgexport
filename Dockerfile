@@ -5,5 +5,3 @@ ENV PATH=$PATH:/home/node/.npm-global/bin
 
 USER node
 RUN npm -g install svgexport
-
-CMD ["node","index.js"]
